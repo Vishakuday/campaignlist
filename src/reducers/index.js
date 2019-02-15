@@ -1,7 +1,10 @@
 import { combineReducers } from 'redux';
 
+import campaignInfo from './campaignInfo';
+
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  campaignInfo: campaignInfo
 });
 
 export default rootReducer;
+

@@ -1,0 +1,83 @@
+.container {
+    width: 100% !important;
+    max-width: none;
+}
+.campaign-header {
+    width:100%;
+    background: lightblue;
+    font-size: 20px;
+    padding: 10px;
+}
+.campaign-list-subheader {
+    width:100%;
+    font-size: 20px;
+    display:flex;
+    padding: 10px;
+}
+.subheader-name {
+    margin-right: 20px;
+}
+.create-new-btn {
+    background: blue;
+    color: white;
+    font-size: 15px;
+}
+
+.add-new-campaign-section {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.confirm-btn {
+    background: green;
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.cancel-btn {
+    background: red;
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.single-camnpaign {
+    display: flex;
+    width: 100%;
+    background: #e4ecf3;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+.single-campaign-parent {
+    display: flex;
+}
+
+.rename-section {
+    display: flex;
+}
+
+.single-campaign-parent div {
+    margin-right: 10px;
+}
+
+.campaign-and-history-section {
+    display: flex;
+}
+
+.campaignlist {
+    height: 800px;
+    background: white;
+    width: 70%;
+    border: 1px solid black;
+    padding: 0;
+
+}
+
+.history {
+    width:30%;
+    height: 800px;
+    background: lightgrey;
+}
